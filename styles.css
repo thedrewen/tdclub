@@ -1,0 +1,71 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color: #022051;
+}
+
+/* Head */
+header div.header{
+    background: linear-gradient(to right, #15376d, 10%, #021b43);
+}
+header div.header div{
+    display: inline-block;
+}
+header div.header div.header_1{
+    padding: 2.5%;
+    padding-right: 60%;
+}
+header div.header div.header_1 h1{
+    font-size: 210%;
+    font: sans-serif;
+    color: #ffff;
+}
+header div.header div.header_2{
+    padding-left: 25%;
+}
+
+/* Body */
+div#body div.article_1{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 6%;
+    padding: 1%;
+    background: linear-gradient(#021b43, #15376d);
+    border-radius: 30px;
+    border: solid black;
+    transition: 3s;
+}
+div#body div.article_1:hover{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 6%;
+    padding: 1%;
+    background: linear-gradient(#021b43, #15376d);
+    border-radius: 50px;
+    border: solid black;
+    transition: 3s;
+    filter: brightness(1.50);
+}
+
+div#body div.article_1 div{
+    display: inline-block;
+}
+
+div#body div.article_1 div.texte h2{
+    margin-left: 1.5%;
+    color: aliceblue;
+}
+div#body div.article_1 div.texte{
+    padding-right: 30%;
+}
+
+div#body div.article_1 div.img img{
+    width: 30%;
+    border-radius: 50%;
+}
