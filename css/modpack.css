@@ -1,0 +1,48 @@
+div#body div.article_1 div p{
+    color: aliceblue;
+    font-size: 105%;
+}
+div#body div.article_1 div ol li{
+    margin: 5%;
+    color: aliceblue;
+}
+div#body div.article_1 div ol li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+div#body div.article_1 div.img{
+    margin: 10%;
+}
+
+
+
+
+div#body div.article_2{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 6%;
+    padding: 1%;
+    background: linear-gradient(#021b43, #15376d);
+    border-radius: 30px;
+    border: solid black;
+    transition: 3s;
+}
+div#body div.article_2:hover{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 6%;
+    padding: 1%;
+    background: linear-gradient(#021b43, #15376d);
+    border-radius: 50px;
+    border: solid black;
+    transition: 3s;
+    filter: brightness(1.50);
+}
+
+div#body div.article_2 div.texte h2, a, p{
+    margin-left: 1.5%;
+    color: aliceblue;
+}
+div#body div.article_2 div.texte{
+    padding-right: 35%;
+}
