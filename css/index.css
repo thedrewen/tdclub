@@ -1,0 +1,33 @@
+/* Body */
+div#body div.article_1, div.contact{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 6%;
+    padding: 1%;
+    background: linear-gradient(#021b43, #15376d);
+    border-radius: 30px;
+    border: solid black;
+    transition: 3s;
+}
+div#body div.article_1:hover, div.contact:hover{
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 10%;
+    padding: 1%;
+    background: linear-gradient(#021b43, #15376d);
+    border-radius: 50px;
+    border: solid black;
+    transition: 3s;
+    filter: brightness(1.50);
+}
+
+div#body div.article_1 div.texte h2, div.contact div.texte h2{
+    margin-left: 1.5%;
+    color: aliceblue;
+}
+div#body div.article_1 div.texte, div#body div.contact div.texte{
+    padding-right: 35%;
+}
+div#body a{
+    text-decoration:none;
+}
