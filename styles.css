@@ -13,19 +13,13 @@ body{
 /* Head */
 header div.header{
     background: linear-gradient(to right, #15376d, 10%, #021b43);
-}
-header div.header div{
-    display: inline-block;
+    border-bottom: solid rgb(44, 44, 87);
 }
 header div.header div.header_1{
     padding: 2.5%;
-    padding-right: 60%;
 }
 header div.header div.header_1 h1{
     font-size: 210%;
     font: sans-serif;
     color: #ffff;
-}
-header div.header div.header_2{
-    padding-left: 25%;
 }
